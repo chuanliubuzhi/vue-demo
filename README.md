@@ -1,21 +1,17 @@
 # vue-ele
 
-> 一个饿了么的烂大街demo
+> 一个基于饿了吗开源项目的demo重写
 
-## Build Setup
+## 预览地址 https://chuanliubuzhi.github.io/vue-demo/
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 运用技术
 
-# build for production with minification
-npm run build
+> Vue、vue-router、axios、better-scroll、ES6、sass(scss)
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+    Vue：用于构建用户界面的 MVVM 框架。它的核心是响应的数据绑定和组系统件
+    vue-router：为单页面应用提供的路由系统，项目上线前使用了 Lazy Loading Routes 技术来实现异步加载优化性能
+    better-scroll：iscroll 的优化版，使移动端滑动体验更加流畅
+    Sass(Scss)：css 预编译处理器
+    ES6：ECMAScript 新一代语法，模块化、解构赋值、Promise、Class 等方法非常好用
+    axios: AJAX插件
