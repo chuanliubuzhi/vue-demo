@@ -62,7 +62,7 @@ $designWidth: 750;
         font-size: px2rem(28);
         color: rgb(77, 85, 93)
       }
-      :active{
+      .active{
         color: rgb(240, 20, 20);
         border-bottom: 1px red solid;
       }
