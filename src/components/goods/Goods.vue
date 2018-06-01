@@ -225,13 +225,6 @@ $designWidth: 750;
         width: px2rem(102);
         padding: 0 px2rem(24);
         line-height: px2rem(28);
-        .current{
-          position: relative;
-          z-index: 10;
-          margin-top: -1px;
-          background: #fff;
-          font-weight: 700;
-        }
         .icon{
             display: inline-block;
             vertical-align: middle;
@@ -240,12 +233,10 @@ $designWidth: 750;
             margin-right: 2px;
             background-size: px2rem(24) px2rem(24);
             background-repeat: no-repeat;
-
         }
         .decrease{
           @include bg-image('decrease_3')
         }
-
         .discount{
           @include bg-image('discount_3')
         }
@@ -265,6 +256,13 @@ $designWidth: 750;
           @include border-1px(rgba(7, 17, 27, 0.1));
           font-size: px2rem(24);
         }
+      }
+      .current{
+        position: relative;
+        z-index: 10;
+        margin-top: -1px;
+        background: #fff;
+        font-weight: 700;
       }
     }
     .foods-wrapper{
